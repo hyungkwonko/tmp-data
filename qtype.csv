@@ -1,0 +1,241 @@
+ix,llm_q,llm_qt,gold_q,gold_qt
+144,Is the line on the chart moving upwards from left to right?,Characterize Distribution,What is the mean value of the price for the given line chart?,Compute Derived Value
+205,How does the productivity distribution vary among firms of different sizes in the year 2015?,Characterize Distribution,Is the pattern change for different time period?,Correlate
+223,How does the popularity of Premier League teams vary across different countries based on search queries?,Characterize Distribution,Why Tottenham Hotspur is the most popular team in South Korea?,Correlate
+236,How does the flux of metabolite X vary across different samples?,Characterize Distribution,Why do certain metabolite fluxes differ from sample to sample?,Correlate
+232,How does the gender distribution in the UPZ with the highest number of whereabouts compare to other UPZs?,Characterize Distribution,Why does UPZ111 have such large difference in gender distribution?,Find Anomalies
+17,"What is the share of price rises and cuts for the consumer item ""X""?",Characterize Distribution,"What is the color representing ""Cars and transport"" item type?",Retrieve Value
+128,What is the difference between the percentage of responses indicating comfortability and discomfort with data being shared?,Compute Derived Value,What is the most common height of the bar?,Characterize Distribution
+139,What is the difference between the maximum and minimum poverty rates and the maximum and minimum percentages of money bonds for drug offenses in urban areas?,Compute Derived Value,What is the most common size of blue circles?,Characterize Distribution
+174,"What is the difference in the number of points represented by the colors 'rgb(232,200,93)' and 'rgb(219,165,132)' in the chart?",Compute Derived Value,Which type of medal occupies the biggest portion?,Characterize Distribution
+137,What is the sum of the quantity of onions for state X over the year Y?,Compute Derived Value,What is the sum total of dark green and light violet areas?,Compute Derived Value
+141,What is the difference in the number of people employed in the age group of 18-24 between the years 2000 and 2010?,Compute Derived Value,"What are the difference between two mean employement rates of two groups that have the largest difference in height on January 3rd, 2020?",Compute Derived Value
+177,What is the proportion of rectangles in the heat map that are in the upper right quadrant and are colored red or goldred compared to the total number of rectangles?,Compute Derived Value,What is the relationship between increate in energy consumption and GDP growth?,Correlate
+220,"How has the WGI score of Country X changed between 2017 and 2021, and what could be the potential reasons for this change?",Compute Derived Value,Can you compare the WGI score change in Asia and Europe?,Correlate
+234,How has the quantity of the item changed over time?,Compute Derived Value,Why did all three quantities increase over time?,Correlate
+124,What is the difference in the WGI score of Country X between 2017 and 2021?,Compute Derived Value,Is the number of purple squares exceeds the one of purple circle?,Filter
+129,What is the proportion of observations that fall within the higher range of both change in energy consumption and GDP growth compared to the total number of observations?,Compute Derived Value,How many cells have the color red?,Filter
+172,What is the distance between the points representing Country X on the x-axis in the colors representing 2017 and 2021?,Compute Derived Value,Can you count the number of countries in which WGI score decreased?,Filter
+176,What is the difference in height between the bars representing the percentage of responses indicating comfortability and discomfort with data being shared?,Compute Derived Value,How many people gave response of 4 or lower?,Filter
+180,What is the average length of the bars representing Tanzania's access to electricity from 2000 to 2020?,Compute Derived Value,Which country had the most increase in access to electricity in the last decade?,Find Extremum
+185,How large is the area under the curve for state X over the year Y?,Compute Derived Value,Which state has the lowest average quantity?,Find Extremum
+189,What is the difference in the value of the line representing the age group 18-24 between the points on the x-axis corresponding to the years 2000 and 2010?,Compute Derived Value,Which age group experienced the largest change in employment between 2019-10-01 and 2020-01-10?,Find Extremum
+32,What is the percentage of responses indicating comfortability with data being shared?,Compute Derived Value,What do the heights of the bars mean?,Retrieve Value
+43,What is the percentage of money bonds for drug offenses in urban areas in 2018?,Compute Derived Value,What is the number of populaton with the largest size of circle?,Retrieve Value
+126,What is the difference between the number of gold and bronze medals won by Australia in the Olympics?,Compute Derived Value,Which medal type occupies the largest space in this chart?,Retrieve Value
+132,What is the average percentage of the population with access to electricity in Tanzania from 2000 to 2020?,Compute Derived Value,What does the height of red bar mean?,Retrieve Value
+133,"What is the total energy consumption of each energy source in Africa from 1989 to 2022, and which source has the highest total?",Compute Derived Value,What does the size of green area represent?,Retrieve Value
+209,"How does the share of price rises and cuts for the consumer item ""X"" compare to other items?",Correlate,Can you compare the overall distributions of different item types?,Characterize Distribution
+212,How can the information about the number of deaths caused by different drugs over the years be used to improve drug prevention and treatment programs in Scotland?,Correlate,Which drug seems to be the most dangerous and why?,Characterize Distribution
+213,Why might Vietnam and Indonesia be popular locations for shoe factories?,Correlate,Can you compare how Nike and Addidas supply chains are distributed?,Characterize Distribution
+214,What implications does the state with the highest percentage of immigrants in relation to its population have on its social and economic aspects?,Correlate,Can you describe the difference in immigrant composisions between Alaska and California?,Characterize Distribution
+219,"How does the gross savings as a percentage of GDP for Canada, Saudi Arabia, and Senegal in the year 2020 reflect their economic stability?",Correlate,Can you describe how the trend of gross savings in Canada?,Characterize Distribution
+224,How does the public's comfortability with data being shared impact the government's decision to continue this practice?,Correlate,Why would the score of 9 be much less common than adjacent scores?,Characterize Distribution
+221,How does the corporate tax rate of the country with the highest rate compare to the other G20 countries?,Correlate,Can you divide G20 countires into separated groups based on tax rate value?,Cluster
+99,What is the strength of the correlation between the HDI and the ODA as indicated by the R Squared value?,Correlate,Can you calculate the average ODA for the points over the regression line?,Compute Derived Value
+109,How does the 50th percentile of productivity for firms with 10 employees compare to that of firms with 20 employees in the year 2015?,Correlate,What is the productivity of the 75th percentile on average in 2010?,Compute Derived Value
+157,"In the 2015 panel, how does the productivity value of the point representing firms with 10 employees at the 50th percentile compare to the productivity value of the point representing firms with 20 employees at the same percentile?",Correlate,Is the productivity of the 90th percentile increasing or decreasing as the number of employees increase in general?,Correlate
+179,How does the position of the point representing the Asian ethnic group on the x-axis compare to the positions of points representing other ethnic groups?,Correlate,Why do certain groups show higher values than others?,Correlate
+192,"Based on the trend of Google's stock price, would it be a good investment?",Correlate,Do you think the stock price will go up continuously?,Correlate
+193,How does the income of an area affect its mobility rate and population?,Correlate,Is there any relation between the income and mobility?,Correlate
+195,What does the R Squared value suggest about the relationship between a country's HDI and the ODA it receives?,Correlate,What can we infer about the relationship between HDA and ODA values?,Correlate
+196,How does the increase in 'alpha' and 'beta' values affect the 'log-likelihood'?,Correlate,What can we conclude about the relationship between alpha and beta values?,Correlate
+199,How does the response rate of different DBMS compare and what could be the implications of these differences?,Correlate,"Why dose DuckDB has higher response rate in the dataset with small size, but not in the large dataset?",Correlate
+201,How has Nintendo's financial performance changed over the years and what does this suggest about its future profitability?,Correlate,Why does the gross and operating profit show the same pattern?,Correlate
+202,How might the population density impact the infrastructure needs of the province with the highest density?,Correlate,Why does the British columbia has lower population desity than Ontario?,Correlate
+206,What factors could contribute to the high job reallocation in the industry with the highest average job reallocation value?,Correlate,Why the recreation and culture domain has less impact on the second period than other domains?,Correlate
+208,How does the frequency of price changes month-on-month influence pricing strategies?,Correlate,Let me know the trend of price flexibility over months and why such trend exists.,Correlate
+210,How does the volume of Ether traded influence its price?,Correlate,Can you compare how trends of ETH price and volume changes over time?,Correlate
+217,How does the value of exports of goods and services correlate with the potential market for our product in each European country?,Correlate,Why Germany's export is higher than peripheral countries?,Correlate
+218,How does the regime with the largest share of the world GDP influence global economic trends?,Correlate,Why Hybrid Regime represents more GDP compared to Authoritarian Regime?,Correlate
+228,How has the access to electricity in East Africa changed over the period from 2000 to 2020 and what could be the potential reasons for these changes?,Correlate,What contributed Somalia's sudden increase in access to electricity in 2010?,Correlate
+230,How does the trend of the index of private housing rental prices for a particular area influence the decision to invest in private housing in that area?,Correlate,Why was there a consistent drop in rental prices across the nation in 2010?,Correlate
+233,Which factors could have contributed to state X having the highest total quantity of onions in year Y?,Correlate,What causes the regular spike in onion quantities?,Correlate
+235,How does the poverty rate influence the percentage of money bonds for different types of offenses in urban and rural areas in Colorado?,Correlate,Do felony and misdemeanor show any distinct charateristics?,Correlate
+96,Has the stock price of Google been increasing over time?,Correlate,What's the difference of the height between the highest and the lowest point of the line?,Determine Range
+147,How strong is the correlation between the HDI and the ODA as indicated in the subtitle of the chart?,Correlate,"How many points have more than 2,000 ODA where 1-HDA is less than 0.25?",Filter
+200,How does the income per person for Germany compare to other countries in Europe in 2017?,Correlate,What are the characteristics of the countries where the incomes are greater than the median value?,Filter
+194,What implications does the total square footage of the buildings an agency has in a specific county have on the agency's operations and resource allocation?,Correlate,How could the agency named nature resource have so many buildings across different counties?,Find Anomalies
+197,What implications does the high share of population aged 65+ in Japan and South Korea have for policy planning in these countries?,Correlate,Why does the percentage start to saturate after 2050 in Japan?,Find Anomalies
+204,What implications does the type of UK debt with the largest issue amount have on the UK economy?,Correlate,Why UK has the most dept in treasury gilt?,Find Anomalies
+222,Why might Australia have won more bronze medals than gold or silver in the Olympics?,Correlate,Why the number of goal medals obtained by athelethes is smaller than the number of silver or bronze medals?,Find Anomalies
+225,How does the relationship between change in GDP and energy consumption compare across different countries?,Correlate,How would you explain the outlier with decrease in energy consumption and high GDP Growth?,Find Anomalies
+227,What factors could have contributed to the differences in hate crime levels among different ethnic groups during and after COVID-19?,Correlate,Why is Indian the only ethnic group with positive mean?,Find Anomalies
+229,"How has the consumption of different energy sources in Africa changed over the years from 1989 to 2022, and what could be the potential reasons for these changes?",Correlate,Why were there no nuclear energy consumption prior to 1983?,Find Anomalies
+231,How could the department with the highest voter turnout influence the overall election results?,Correlate,Why does Consulados have such low voting rate?,Find Anomalies
+237,How has the employment trend for the age group 18-24 changed over the given period and what could be the potential reasons for this change?,Correlate,Why there is such a huge gap between the group of 16-24 and other groups after January 6?,Find Anomalies
+238,How could the distribution of resources be adjusted based on the trend of COVID-19 cases in different LGAs of South Western Sydney?,Correlate,What caused an abrupt increase of COVID 19 cases on December 2021?,Find Anomalies
+239,"How does the performance of the agents compare over 500,000 steps in the Walker2d-v3 environment?",Correlate,Why does the return fluctuate a lot in case of the SAC agent?,Find Anomalies
+114,What is the highest price of Ether and how does it correlate with the volume traded?,Correlate,Count the number of peaks in a red line,Find Extremum
+131,How does the hate crime level for the Asian ethnic group compare to that of other ethnic groups?,Correlate,Which color of line has the shortest length?,Find Extremum
+149,"How do the positions of the red and yellow lines on the y-axis, representing the share of population aged 65+ in Japan and South Korea respectively, compare to the positions of other lines?",Correlate,Why country has the largest gap of the ratio of old people between 1960 and 2020?,Find Extremum
+207,How does the contribution of the 'Transport' series to the CPI inflation compare to the contributions of the other series over the selected period?,Correlate,What happened in 2012 when the CPI for alcohol peaked the highest?,Find Extremum
+40,What is the number of whereabouts and the percentage of men and women in the UPZ with the highest number of whereabouts?,Correlate,What does the y-axis represent?,Retrieve Value
+101,How does the share of population aged 65+ in Japan and South Korea compare to other countries?,Correlate,What is the saturated percentage who is aged more than 65 in Japan after it peaked the highest?,Retrieve Value
+211,How does the type of food production with the highest value of food emissions impact our strategies for reducing greenhouse gas emissions?,Correlate,How can we decrease the amount of CO2 emission in long-term manner?,ETC
+138,What is the difference between the maximum and minimum quantity of the item over time?,Determine Range,What does the slope of each line mean?,Characterize Distribution
+170,What is the difference in size between the largest and smallest arc segments representing the GDP shares of the different regimes?,Determine Range,What is the average representation rate of Flawed Democracy and Authoritarian Regime?,Compute Derived Value
+187,"In the column for urban areas, what is the difference between the highest and lowest positions on the x-axis and the highest and lowest positions on the y-axis for drug offenses?",Determine Range,"How many locations in rural groups have populations smaller than 600,000?",Filter
+186,What is the difference in height between the highest and lowest points of the line on the chart?,Determine Range,Which item had the highest growth rate?,Find Extremum
+122,What is the difference in GDP share between the regime with the largest share and the one with the smallest share?,Determine Range,Please list the colors within the pie chart in the increasing order based on the occupied space,Sort
+76,Where are the points representing Country X located on the x-axis in the colors representing 2017 and 2021?,Filter,Let me know the change in WGI overall score between 2017 and 2021 in Argentina.,Compute Derived Value
+104,Was the income per person for Germany above or below the median income in Europe in 2017?,Filter,What's the mean value of green bars?,Compute Derived Value
+152,Is the bar for Germany longer than the median bar and what color is it?,Filter,How many countries have lower GDP per capita than the average value of the GDP per capita of the countries that have higher GDP per capita than the median?,Filter
+33,How many observations fall within the higher range of both change in energy consumption and GDP growth?,Filter,What do the grey lines mean?,Retrieve Value
+69,How many large circles are located in the areas representing Vietnam and Indonesia on the map?,Filter,How many workers are in the Adidas garment chain in China?,Retrieve Value
+81,How many rectangles in the heat map are in the upper right quadrant and are colored red or goldred?,Filter,How is the global average GDP Growth?,Retrieve Value
+85,Which energy source has the largest area and distinct color in the year 2000?,Filter,What is the consumption of nuclear energy in 2020?,Retrieve Value
+215,Why might the country with the lowest GDP per capita in the final year of the dataset have experienced such a significant economic downturn?,Find Anomalies,Why all countries' GDP per captial decrease while it increases worldwidely?,Correlate
+16,In which month was the frequency of price changes the highest?,Find Extremum,What is the shape of the dot in the plot?,Characterize Distribution
+14,What is the highest average job reallocation value across all industries?,Find Extremum,Could you let me know the percentage of yellow-colored bar in other services?,Compute Derived Value
+70,Which state is represented by the longest bar in the chart?,Find Extremum,What is the percentage of Naturalizations over total population in Nevada?,Compute Derived Value
+97,What is the maximum income and what is the corresponding mobility rate?,Find Extremum,Which group has higher average mobility between the purple group and blue group?,Compute Derived Value
+102,Which G7 country had the highest GDP in 2017?,Find Extremum,What is the average GDP of a country colored red from 1992 to 2002?,Compute Derived Value
+103,Which DBMS has the highest response rate?,Find Extremum,What is the difference between the sum of response rates for bars colored blue and bars colored green?,Compute Derived Value
+105,What is the maximum net sales value and what is the operating profit ratio for that year?,Find Extremum,What is the mean of red bars between the highest and the second highest bars?,Compute Derived Value
+106,Which province has the maximum population density and what is the value?,Find Extremum,Would you please get the difference of population density in the left most state and the right most state in the map?,Compute Derived Value
+108,Which type of UK debt has the maximum issue amount?,Find Extremum,How many times larger is the red one compared to the green one?,Compute Derived Value
+115,What is the maximum value of food emissions and which type of food production does it correspond to?,Find Extremum,Is the amount of CO2 emission from land use exceeds the one from processing on average?,Compute Derived Value
+135,Which department has the maximum number of voters?,Find Extremum,What is the average width of blue bars?,Compute Derived Value
+143,"Which agent has the highest return value over 500,000 steps?",Find Extremum,What is the average return value for the red line?,Compute Derived Value
+148,What are the 'alpha' and 'beta' values at the position of the largest point on the chart?,Find Extremum,What is the mean of log likelihood for the values where alpha is larger than 10 and beta is smaller than 40?,Compute Derived Value
+160,At which point on the y-axis is the frequency of price changes the highest and what is the corresponding month on the x-axis?,Find Extremum,"What is the average price flexibility in Winter (December, January, and Febuary) ?",Compute Derived Value
+163,Which bar is the longest and what type of food production does its color represent?,Find Extremum,How much is the average CO2 emission rate in feeding animals?,Compute Derived Value
+169,Which country is the darkest on the map?,Find Extremum,"How much is the average exports in France, Germany, and Spain?",Compute Derived Value
+173,Which bar in the chart is the longest and what country does it correspond to?,Find Extremum,What is the average corpoprate tax rate over all countries?,Compute Derived Value
+184,Which bar on the chart is the longest and what is the height of the green and pink lines indicating the percentage of men and women respectively in the corresponding UPZ?,Find Extremum,What is the average percentage of male population?,Compute Derived Value
+44,What is the highest flux value for metabolite X across all samples?,Find Extremum,Does the yellow flux mean higher or lower value?,Correlate
+140,What is the maximum flux value across all metabolites and samples?,Find Extremum,"Is there any correlation between the value of flux and the metabolites located on different rows (e.g., the higher rows and lower rows)?",Correlate
+159,Is the tallest blue bar representing the 'Transport' series higher than the tallest bars of the other colors?,Find Extremum,Does alcohol and tobacco has positive or negative customer price index among the given time?,Correlate
+175,"Which color appears most frequently on the map, and which Premier League team does this color represent?",Find Extremum,Is the most popular PL team in South Korea and Japan different?,Correlate
+198,How has the GDP of the G7 countries changed over the years and which country had the highest GDP in 2017?,Find Extremum,Why does Japan starts to grow faster since 1960 compared to UK or Italy?,Correlate
+226,What strategies could the FRV District and station with the highest percentage of responses above the 7.7 minute standard implement to improve their response times?,Find Extremum,Why does the Central district consistently have high percentage of slow responses despite its small size?,Correlate
+11,Which country has the highest gender pay gap?,Find Extremum,Which country has bars with a darker color?,Filter
+92,Which sample has the darkest color for metabolite X?,Find Extremum,Is the flux of ca2_m vs. Cancer7 sample lower than 0.001?,Filter
+107,What is the maximum gender pay gap and in which year was it recorded?,Find Extremum,Can you name the years where bars of US are higher than the bars of UK?,Filter
+121,Which country has the highest value of exports of goods and services?,Find Extremum,Is the color depicting France lighter than the one depicting Germany?,Filter
+154,"Which province is colored the darkest on the map, indicating the highest population density, and what is the density value?",Find Extremum,What is the name of the province where the density of population is the most simliar to Quebec?,Filter
+155,Which bar reaches the highest point on the chart and in which year is it positioned?,Find Extremum,Can you state the number of years when the pay gap between gender was higher in US than UK?,Filter
+158,Which industry's bar reaches the highest point on the y-axis in the bar chart?,Find Extremum,How many domains fired more people than hiring them in the first period?,Filter
+183,Which department has the longest bar in the bar chart representing the total number of voters?,Find Extremum,How many departments have more than 2000000 total voters?,Filter
+164,Which line reaches the highest position on the y-axis over the years?,Find Extremum,When does the drug deaths caused by Benzodiazepines started to show step increasing trend?,Find Anomalies
+182,What is the highest point on the y-axis for a particular row (area) and is this point moving upwards along the x-axis over time?,Find Extremum,"Which region, if any, shows a distinct trend different from others?",Find Anomalies
+15,What is the highest value of the 'Transport' series over the selected period?,Find Extremum,When does the CPI for alcohol and cigarette change to a positive value for the first time?,Find Extremum
+22,Which state has the highest sum of 'ValueC'?,Find Extremum,What is the color that occupies the second largest area in the chart?,Find Extremum
+26,Which regime has the largest share of the world GDP?,Find Extremum,Which color occupies the largest space in the chart?,Find Extremum
+63,What is the height of the tallest blue bar representing the 'Transport' series?,Find Extremum,Which type of products has the lowest CPI for the entire time period?,Find Extremum
+64,In which month does the point reach the highest position on the y-axis?,Find Extremum,What is the highest price flexibility recorded throughout the data?,Find Extremum
+66,At what point does the orange to hotpink line reach its peak in the chart?,Find Extremum,What is the value of the ETH volume at it's highest peak?,Find Extremum
+94,"Which color line reaches the highest point on the chart, indicating the LGA in South Western Sydney with the highest cumulative count of confirmed COVID-19 cases?",Find Extremum,When was the date there were the most number of COVID 19 cases detected in a single day?,Find Extremum
+100,What are the 'alpha' and 'beta' values when the 'log-likelihood' is at its maximum?,Find Extremum,"What is the optimal value of the beta approximately by looking at the size of the circles, which represents the log-likelihood?",Find Extremum
+110,Which industry has the maximum average job reallocation value?,Find Extremum,Can you name the domain where the difference of height in the first and the second period for 'Hires' index is the largest?,Find Extremum
+111,What is the maximum value of the 'Transport' series compared to the maximum values of the other series over the selected period?,Find Extremum,When is the time (year) that the area for all items were the smallest on average?,Find Extremum
+112,What is the maximum value of the frequency of price changes and in which month does it occur?,Find Extremum,"Among January, July, and December, which month has the circle with highest y-axis position?",Find Extremum
+113,Which consumer item has the highest share of price rises and cuts?,Find Extremum,Is the biggest disc with red color bigger than the biggest disc with brown color?,Find Extremum
+116,Which drug has caused the maximum number of deaths over the years?,Find Extremum,What is the color of the line that has the most gentle slope?,Find Extremum
+119,Which country has the minimum GDP per capita in the final year of the dataset?,Find Extremum,Which country shows the lowest GDP per captial on average from 2000 to 2012?,Find Extremum
+123,Which country had the maximum gross savings as a percentage of GDP in the year 2020?,Find Extremum,Which country shows the increasing trend from 2010 to 2015?,Find Extremum
+125,Which country has the maximum corporate tax rate?,Find Extremum,Let me know the approximate ratio of the length of longest and shortest bars.,Find Extremum
+127,Which Premier League team is the most popular based on the number of countries where it is the most searched for?,Find Extremum,Which color occupies the largest area in this chart?,Find Extremum
+130,Which quarter had the highest average percentage of responses above the 7.7 minute standard across all FRV Districts and stations?,Find Extremum,Which district has the largest change in color between Q1 and Q4?,Find Extremum
+134,What is the highest index of private housing rental prices for a particular area and is this value increasing over time?,Find Extremum,Which line has the largest difference between the highest and lowest points?,Find Extremum
+142,On which date did the LGA with the highest cumulative count of confirmed COVID-19 cases reach its peak?,Find Extremum,Which month has the steepest slope of the line for the daily COVID 19 cases?,Find Extremum
+150,Which color reaches the highest point on the chart in the year 2017?,Find Extremum,Which country has grown the second most in 2017 in terms of percentage compared to 1954?,Find Extremum
+151,Which DBMS has the longest bar representing the response rate?,Find Extremum,Which database has the lowest response rate for all cases?,Find Extremum
+153,Which is the tallest bar and where is the light green line positioned for that year on the chart?,Find Extremum,When was the year that the gap between the operation profit ans gross profit was the smallest?,Find Extremum
+161,Which consumer item is positioned at the highest point on both the price cuts and price rises axes?,Find Extremum,What is the item type containing the items with the lowest prices cut on average?,Find Extremum
+162,At what point does the orange to hotpink line reach its peak and what is the corresponding point on the blue to red line?,Find Extremum,Which year shows the increasing trend in ETH price?,Find Extremum
+166,Which state is represented by the longest bar in the chart and what is the length of this bar?,Find Extremum,Which type of immigrant occupies the biggest percentage?,Find Extremum
+167,Which colored line is at the lowest position on the y-axis in the final year of the dataset?,Find Extremum,What is the name of the country that shows the increasing trend?,Find Extremum
+171,"Which color bar has the greatest height in the year 2020, representing the country with the maximum gross savings as a percentage of GDP?",Find Extremum,Which country has the biggest gross savings rate on average?,Find Extremum
+178,In which quarter are the circles positioned highest on average on the line chart?,Find Extremum,Which station improved their ranking the most over the year within their district?,Find Extremum
+190,On which date does the color line representing the LGA with the highest cumulative count of confirmed COVID-19 cases reach its highest point on the chart?,Find Extremum,When does the cumulative number of COVID cases peaked in 2021?,Find Extremum
+191,"At the 500,000 step mark on the x-axis, which agent's line reaches the highest point on the y-axis?",Find Extremum,Which agent has the smallest standard deviation on average?,Find Extremum
+10,What is the population density of the province with the highest density?,Find Extremum,What is the name of the state colored pink?,Retrieve Value
+18,What is the highest price of Ether?,Find Extremum,"What is the color of the line representing ""Price""?",Retrieve Value
+19,Which type of food production has the highest value of food emissions?,Find Extremum,"What is the color representing ""Package""?",Retrieve Value
+29,What is the highest corporate tax rate among the G20 countries?,Find Extremum,What is the color used to depict bars?,Retrieve Value
+31,What is the most popular Premier League team in the United States based on search queries?,Find Extremum,"What is the color representing ""Manchester united""?",Retrieve Value
+34,What is the highest percentage of responses above the 7.7 minute standard and which FRV District and station does it correspond to?,Find Extremum,Which district is colored darkest in Q1?,Retrieve Value
+46,Which LGA in South Western Sydney has the highest cumulative count of confirmed COVID-19 cases?,Find Extremum,Which LGA used red bars to represent the daily COVID cases?,Retrieve Value
+58,"Which province is colored the darkest on the map, indicating the highest population density?",Find Extremum,What is the population density in British Columbia?,Retrieve Value
+59,Which country's bar reaches the highest point on the chart?,Find Extremum,Can you retrieve the value of US in 1995?,Retrieve Value
+62,Which industry's bar has the greatest height in the bar chart?,Find Extremum,What is the value of index 'Fires' in retail business?,Retrieve Value
+67,Which bar is the longest and what type of food production does its color represent?,Find Extremum,How much is the CO2 emission rate in feeding Lamb & Mutton?,Retrieve Value
+74,Which color in the arc represents the regime with the largest share of the world GDP?,Find Extremum,How's GDP in Flawed Democracy countries?,Retrieve Value
+77,Which bar in the chart is the longest?,Find Extremum,What is the tax rate value in South Korea?,Retrieve Value
+82,Which FRV District and station is represented by the darkest geoshape on the map and the highest positioned circle on the line chart?,Find Extremum,How many stations are in the Eastern district?,Retrieve Value
+87,Which department has the longest bar in the bar chart representing the total number of voters?,Find Extremum,What is abstention rate of Cauca?,Retrieve Value
+120,Who has the maximum total number of wins in Grand Slams?,Find Extremum,Which player made more win: Federer of Connors?,Retrieve Value
+156,Which color in the donut chart represents the type of UK debt with the largest arc?,Find Extremum,What is the difference between the dept of treasury gilt and treasury stock?,Retrieve Value
+168,Whose bar is the longest in the bar chart for Grand Slams?,Find Extremum,Can you count the number of grand slam made by Novak Djokovic?,Retrieve Value
+188,Which rectangle has the darkest color across all metabolites and samples?,Find Extremum,How many metabolites are there?,Retrieve Value
+216,Who can be considered the most successful player in Grand Slams based on the total number of wins?,Find Extremum,Please map each player and the player's heyday.,Retrieve Value
+118,What is the maximum sum of 'ValueC' and which state does it correspond to?,Find Extremum,"Please list Hawaii, Alaska, and California in increasing order of the proportion of nonimmigrants",Sort
+136,What is the maximum number of whereabouts and what is the percentage of men and women in that UPZ?,Find Extremum,What is the percentage of women in the UPZ with the largest bar?,Compute Derived Value
+55,How long is the bar representing the response rate of a specific DBMS?,Retrieve Value,"For the DBMS with a size of 10M, what is the percentage of response rate for duckdb in flights data?",Compute Derived Value
+60,What is the size of the arc for each color in the donut chart?,Retrieve Value,Could you compute the percentage of the type 'index linked'?,Compute Derived Value
+65,"Where is the consumer item ""X"" positioned on the chart in terms of price cuts and price rises?",Retrieve Value,What is the price rising value of the data point with the highest prices cut?,Compute Derived Value
+83,What is the position of the point representing the Asian ethnic group on the x-axis?,Retrieve Value,What is the average for Black groups?,Compute Derived Value
+95,"At the 500,000 step mark on the x-axis, how high does each agent's line reach on the y-axis?",Retrieve Value,What is the standard deviation of NPG agent at 552960 step?,Compute Derived Value
+98,"What is the total square footage of the buildings the ""Department of Natural Resources"" has in ""Cook"" county?",Retrieve Value,What is the sum of number of counts for all counties for the agency located the most right on x-axis?,Compute Derived Value
+145,What is the income and mobility rate of the area represented by the point with the darkest color on the right side of the chart?,Retrieve Value,"What is the average population of those who have income range between 40,000 and 50,000?",Compute Derived Value
+165,What is the total count of large circles located in the areas representing Vietnam and Indonesia on the map?,Retrieve Value,What is the average number of workers working in the Nike garment supply chains in Indonesia?,Compute Derived Value
+3,What is the R Squared value of the linear regression?,Retrieve Value,Is the regression line increasing or decreasing?,Correlate
+8,What was the income per person for Germany in 2017?,Retrieve Value,Which country has the smallest bar with green color?,Filter
+21,How many shoe factories are there in Vietnam and Indonesia?,Retrieve Value,What are the countries emphasized by the chart?,Filter
+25,What is the value of exports of goods and services for Germany?,Retrieve Value,What is the name of the country with yellow color?,Filter
+35,What is the hate crime level for the Asian ethnic group?,Retrieve Value,What color represents South East Asian?,Filter
+56,How long is the bar for Germany and what color is it?,Retrieve Value,"Which country has 44,400 GDP per capita?",Filter
+117,What is the total number of shoe factories in Vietnam and Indonesia?,Retrieve Value,Are there more blue circles compared to red circles?,Filter
+146,"How long is the bar that represents the ""Department of Natural Resources"" in the bar chart?",Retrieve Value,How many agencies have more than 15 million sum of square footage for the whole counties?,Filter
+1,What is the mobility rate of the highest income area?,Retrieve Value,What is the minimum value of income for the data point with purple color?,Find Extremum
+41,What was the total quantity of onions for state X in year Y?,Retrieve Value,Which state has the largest area in the chart?,Find Extremum
+48,How high is the line at the far right of the chart?,Retrieve Value,What is the mimimum price of the stock in the given time?,Find Extremum
+49,What is the mobility rate of the area represented by the point with the darkest color on the right side of the chart?,Retrieve Value,What is the highest value of mobility?,Find Extremum
+50,"How intense is the color of the rectangle that intersects the ""Department of Natural Resources"" on the x-axis and ""Cook"" on the y-axis in the heatmap?",Retrieve Value,"Which county has the highest count of records for the agency named ""University of Illinois""?",Find Extremum
+51,What is the R Squared value mentioned in the subtitle of the chart?,Retrieve Value,What is the maximum ODA over all dataset?,Find Extremum
+61,"In the 2015 panel, what is the productivity value of the point representing firms with 10 employees at the 50th percentile?",Retrieve Value,What is the highest value of 75th percentile in 2010?,Find Extremum
+75,"What is the height of the bars representing the gross savings as a percentage of GDP for the green, blue, and dark purple bars in the year 2020?",Retrieve Value,Report the highest gross savings value represented by the chart,Find Extremum
+79,"What color is the United States on the map, and which Premier League team does this color represent?",Retrieve Value,Let me know the max query rate of Manchester United in China.,Find Extremum
+86,What is the value on the y-axis for a specific point on the x-axis in a particular row (area)?,Retrieve Value,When did maximum for Southwest region occur?,Find Extremum
+90,At what point on the y-axis does the line intersect at time X on the x-axis?,Retrieve Value,At which time did money have the highest quantity?,Find Extremum
+181,"Which energy source's area, represented by a distinct color, is the largest when summed up from 1989 to 2022?",Retrieve Value,Which energy source saw the greatest increase in energy consumption by percentage since 2000?,Find Extremum
+0,What is the stock price of Google at the latest date?,Retrieve Value,What does the vertical axis represent?,Retrieve Value
+2,"How many buildings does the ""Department of Natural Resources"" have in ""Cook"" county?",Retrieve Value,What is the color of the bars on the right chart?,Retrieve Value
+4,What is the 'log-likelihood' for an 'alpha' value of 0.5 and a 'beta' value of 0.3?,Retrieve Value,What is alpha value where the color of the circle is green?,Retrieve Value
+5,What is the share of population aged 65+ in Japan and South Korea?,Retrieve Value,Which country is colored as yellow?,Retrieve Value
+6,What was the GDP of the United States in 2017?,Retrieve Value,What is the GDP of a country with largest area in 2007?,Retrieve Value
+7,What is the response rate of a specific DBMS?,Retrieve Value,What dose the orange bar represents?,Retrieve Value
+9,What were the net sales and operating profit ratio for Nintendo in the most recent year?,Retrieve Value,What is the value of green line in 2011?,Retrieve Value
+12,What is the issue amount for each type of UK debt?,Retrieve Value,What does red color represent?,Retrieve Value
+13,What is the 50th percentile of productivity for firms with 10 employees in the year 2015?,Retrieve Value,Can you say the percentile of yellow colored dots?,Retrieve Value
+20,How many deaths were caused by Heroin in 2020?,Retrieve Value,Are the lines in this chart dotted or solid?,Retrieve Value
+23,What is the GDP per capita of each country in the final year of the dataset?,Retrieve Value,"What is the color of the line representing ""All""?",Retrieve Value
+24,What is the total number of wins for Rafael Nadal in Grand Slams?,Retrieve Value,Let me know the color of T-shirt in which Rafael Nadal is wearing in his photo.,Retrieve Value
+27,"What is the gross savings as a percentage of GDP for Canada, Saudi Arabia, and Senegal in the year 2020?",Retrieve Value,How many bars are placed within two ticks of x-axis?,Retrieve Value
+28,What was the WGI score of Country X in 2017 and 2021?,Retrieve Value,"What is the shape representing ""Neither""?",Retrieve Value
+30,How many bronze medals has Australia won in the Olympics?,Retrieve Value,"What is the color of the icon located at the 3rd row, 4th column?",Retrieve Value
+36,What is the percentage of the population with access to electricity in Kenya in 2010?,Retrieve Value,What does the color green mean?,Retrieve Value
+37,What was the energy consumption of the most consumed energy source in Africa in the year 2000?,Retrieve Value,Which color is hydro energy represented by?,Retrieve Value
+38,What is the index of private housing rental prices for a particular area at a specific time?,Retrieve Value,How many lines are there?,Retrieve Value
+39,What is the total number of voters in each department?,Retrieve Value,What does the width of the pink bars mean?,Retrieve Value
+42,What is the quantity of the item at time X?,Retrieve Value,What does the horizontal axis indicate?,Retrieve Value
+45,What was the number of people employed in the age group of 16-17 in the year 2010?,Retrieve Value,What is the employment rate of the black line on January 9?,Retrieve Value
+47,"What is the return value of each agent at 500,000 steps?",Retrieve Value,What does the vertical axis represent?,Retrieve Value
+52,What is the size of the point at the position where 'alpha' is 0.5 and 'beta' is 0.3 on the chart?,Retrieve Value,What is the log likelihood where alpha is 10 and beta is 20?,Retrieve Value
+53,"What is the position of the red and yellow lines on the y-axis, representing the share of population aged 65+ in Japan and South Korea respectively?",Retrieve Value,What is the percentage of elderly people of Japan in 2040?,Retrieve Value
+54,What is the height of the area representing the United States in the year 2017?,Retrieve Value,When does the GDP of Germany become larger than 3 billion?,Retrieve Value
+57,How high is the bar and where is the light green line positioned for the most recent year on the chart?,Retrieve Value,What is the operating profit ratio in 1990?,Retrieve Value
+71,What is the position on the y-axis of each colored line in the final year of the dataset?,Retrieve Value,How much is the GDP per Capital of Niger in 2000?,Retrieve Value
+72,How long is the bar representing Rafael Nadal's wins in Grand Slams?,Retrieve Value,How many times Ivan Lendi make a victory?,Retrieve Value
+73,How dark is the color of Germany on the map?,Retrieve Value,What is the exports value of the country that is located leftmost in the map?,Retrieve Value
+78,"How many medals are represented by the color 'rgb(219,165,132)' in the chart?",Retrieve Value,Count the number of bronze medal obtained by the athelethes.,Retrieve Value
+80,How high is the bar representing the percentage of responses indicating comfortability with data being shared?,Retrieve Value,"How many responded with ""Don't know""?",Retrieve Value
+84,How long is the bar representing Kenya's access to electricity in 2010?,Retrieve Value,What was Somali's access to electricity in 2005?,Retrieve Value
+88,"In the UPZ represented by the longest bar on the chart, what is the height of the green and pink lines indicating the percentage of men and women respectively?",Retrieve Value,What is the name of UPZ17?,Retrieve Value
+89,How high is the area corresponding to state X in year Y?,Retrieve Value,How much onion was produces by TN in Feb 2014?,Retrieve Value
+91,"In the column for urban areas, what is the position on the y-axis for the point representing drug offenses in 2018?",Retrieve Value,What is the poverty rate in urban area of 2014?,Retrieve Value
+93,What is the value of the line representing the age group 16-17 at the point on the x-axis corresponding to the year 2010?,Retrieve Value,"What is the employment rate for the age group 16-24 on January 6, 2020?",Retrieve Value
+68,What is the position of the Heroin line on the y-axis in the year 2020?,Retrieve Value,Which drug is the fourth biggest cause of the drug death in 2016?,Sort
+203,What policies could be implemented in the country with the highest gender pay gap to reduce this disparity?,ETC,What are the reasons that the pay gap between gender was higher in the past?,Correlate
